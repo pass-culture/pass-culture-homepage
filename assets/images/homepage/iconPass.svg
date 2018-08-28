@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.34" height="43.15" viewBox="0 0 43.34 43.15">
+  <defs>
+    <clipPath id="clip-path" transform="translate(0.64 0.45)">
+      <rect x="0.5" y="0.5" width="41.7" height="41.7" rx="9.15" ry="9.15" style="fill: none;stroke: #fff;stroke-miterlimit: 10"/>
+    </clipPath>
+    <linearGradient id="Dégradé_sans_nom_3" data-name="Dégradé sans nom 3" x1="-3.02" y1="-7.73" x2="39.91" y2="43.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff0056"/>
+      <stop offset="0" stop-color="#fe0056"/>
+      <stop offset="0.37" stop-color="#aa0073"/>
+      <stop offset="0.67" stop-color="#6c0088"/>
+      <stop offset="0.89" stop-color="#460095"/>
+      <stop offset="1" stop-color="#37009a"/>
+    </linearGradient>
+  </defs>
+  <title>iconPass2</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g>
+      <g style="clip-path: url(#clip-path)">
+        <rect x="0.5" y="0.5" width="42.01" height="42.01" style="stroke: #fff;stroke-miterlimit: 10;fill: url(#Dégradé_sans_nom_3)"/>
+      </g>
+      <rect x="1.14" y="0.95" width="41.7" height="41.7" rx="9.15" ry="9.15" style="fill: none;stroke: #fff;stroke-miterlimit: 10"/>
+    </g>
+  </g>
+  <g id="Calque_4" data-name="Calque 4">
+    <g>
+      <path d="M21.24,38.45a.64.64,0,0,1-.64-.64V32.05a.64.64,0,0,1,1.27,0v5.76A.64.64,0,0,1,21.24,38.45Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M21.24,30.4a.64.64,0,0,1-.64-.64V28a.64.64,0,0,1,1.27,0v1.78A.64.64,0,0,1,21.24,30.4Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M21.24,15.56a.64.64,0,0,1-.64-.64V8.73a.64.64,0,0,1,1.27,0v6.19A.64.64,0,0,1,21.24,15.56Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M21.24,7a.64.64,0,0,1-.64-.64V5.69a.64.64,0,0,1,1.27,0v.72A.64.64,0,0,1,21.24,7Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M30.48,34.81a.64.64,0,0,1-.52-.26l-4.62-6.36a.64.64,0,0,1,1-.75L31,33.8a.64.64,0,0,1-.51,1Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M34,31.39a.63.63,0,0,1-.37-.12L32,30a.64.64,0,1,1,.75-1l1.69,1.23A.64.64,0,0,1,34,31.39Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M30.48,28.81a.63.63,0,0,1-.37-.12l-2.88-2.09a.64.64,0,1,1,.75-1l2.88,2.09a.64.64,0,0,1-.37,1.15Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M34.64,26.45a.64.64,0,0,1-.2,0l-3.71-1.21A.64.64,0,1,1,31.13,24l3.71,1.21a.64.64,0,0,1-.2,1.24Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M29,24.63a.64.64,0,0,1-.2,0l-1.27-.41A.64.64,0,0,1,28,23l1.27.41a.64.64,0,0,1-.2,1.24Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M37.73,22.09H36.55a.64.64,0,1,1,0-1.27h1.18a.64.64,0,1,1,0,1.27Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M34.26,22.09H27.77a.64.64,0,1,1,0-1.27h6.49a.64.64,0,1,1,0,1.27Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M32.34,18.48a.64.64,0,0,1-.2-1.24L36.09,16a.64.64,0,1,1,.39,1.21l-3.94,1.28A.64.64,0,0,1,32.34,18.48Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M27.77,20a.64.64,0,0,1-.2-1.24L29.89,18a.64.64,0,1,1,.39,1.21L28,19.94A.64.64,0,0,1,27.77,20Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M27.6,17.47a.64.64,0,0,1-.37-1.15l5-3.61a.64.64,0,1,1,.75,1l-5,3.61A.63.63,0,0,1,27.6,17.47Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M27.37,13.65a.64.64,0,0,1-.51-1l3.56-4.9a.64.64,0,0,1,1,.75l-3.56,4.9A.64.64,0,0,1,27.37,13.65Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M25.86,15.73a.64.64,0,0,1-.51-1l.47-.65a.64.64,0,0,1,1,.75l-.47.65A.64.64,0,0,1,25.86,15.73Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M25.43,9.19a.64.64,0,0,1-.61-.83l.35-1.09a.64.64,0,0,1,1.21.39L26,8.75A.64.64,0,0,1,25.43,9.19Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M23.36,15.56a.64.64,0,0,1-.61-.83l1.41-4.35a.64.64,0,0,1,1.21.39L24,15.12A.64.64,0,0,1,23.36,15.56Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M17.59,10.91a.64.64,0,0,1-.61-.44l-.91-2.81a.64.64,0,0,1,1.21-.39l.91,2.81a.64.64,0,0,1-.61.83Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M19.12,15.62a.64.64,0,0,1-.61-.44l-.9-2.76A.64.64,0,0,1,18.83,12l.9,2.76a.64.64,0,0,1-.61.83Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M16.62,15.79a.64.64,0,0,1-.52-.26l-4.79-6.6a.64.64,0,0,1,1-.75l4.79,6.6a.64.64,0,0,1-.51,1Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M10.13,14.08A.63.63,0,0,1,9.76,14L8,12.65a.64.64,0,1,1,.75-1l1.8,1.31a.64.64,0,0,1-.37,1.15Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M14.88,17.53a.63.63,0,0,1-.37-.12l-2.88-2.09a.64.64,0,1,1,.75-1l2.88,2.09a.64.64,0,0,1-.37,1.15Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M11.55,19a.64.64,0,0,1-.2,0L7.64,17.76A.64.64,0,1,1,8,16.55l3.71,1.21a.64.64,0,0,1-.2,1.24Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M14.71,20a.64.64,0,0,1-.2,0l-1.27-.41a.64.64,0,0,1,.39-1.21l1.27.41a.64.64,0,0,1-.2,1.24Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M8.47,22.15H5a.64.64,0,1,1,0-1.27h3.5a.64.64,0,1,1,0,1.27Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M14.71,22.15H10.63a.64.64,0,1,1,0-1.27h4.08a.64.64,0,1,1,0,1.27Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M6.15,27.05A.64.64,0,0,1,6,25.81l4-1.29a.64.64,0,1,1,.39,1.21L6.35,27A.64.64,0,0,1,6.15,27.05Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M12.39,25a.64.64,0,0,1-.2-1.24L14.51,23a.64.64,0,1,1,.39,1.21L12.59,25A.64.64,0,0,1,12.39,25Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M9.91,30.38a.64.64,0,0,1-.37-1.15l5-3.61a.64.64,0,1,1,.75,1l-5,3.61A.63.63,0,0,1,9.91,30.38Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M11.54,35.49a.64.64,0,0,1-.51-1l3-4.1a.64.64,0,0,1,1,.75l-3,4.1A.64.64,0,0,1,11.54,35.49Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M15.89,29.51a.64.64,0,0,1-.51-1l.73-1a.64.64,0,0,1,1,.75l-.73,1A.64.64,0,0,1,15.89,29.51Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M16.69,36.14a.64.64,0,0,1-.61-.83l.35-1.09a.64.64,0,0,1,1.21.39L17.3,35.7A.64.64,0,0,1,16.69,36.14Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M17.7,33a.64.64,0,0,1-.61-.83l1.41-4.35a.64.64,0,0,1,1.21.39l-1.41,4.35A.64.64,0,0,1,17.7,33Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M24.27,31.39a.64.64,0,0,1-.61-.44l-.91-2.81A.64.64,0,0,1,24,27.74l.91,2.81a.64.64,0,0,1-.61.83Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M26.11,37a.64.64,0,0,1-.61-.44l-1.2-3.7a.64.64,0,0,1,1.21-.39l1.2,3.7a.64.64,0,0,1-.61.83Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+      <path d="M7.85,31.88a.64.64,0,0,1-.37-1.15l.19-.14a.64.64,0,1,1,.75,1l-.19.14A.63.63,0,0,1,7.85,31.88Z" transform="translate(0.64 0.45)" style="fill: #fff"/>
+    </g>
+  </g>
+</svg>
