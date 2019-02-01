@@ -201,7 +201,7 @@
 
             <p class="text-center">
               <span class="container-btn">
-                <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" href="https://app.passculture.beta.gouv.fr" role="button">Téléchargez votre <b>application</b> <i>(uniquement si vous avez reçu le mail de sélection)</i></a>
+                <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" data-toggle="modal" data-target="#activetonpassModal" href="#activetonpassModal" role="button">Téléchargez votre <b>pass Culture</b> <i>(uniquement si vous avez reçu le mail de sélection)</i></a>
               </span>
               <span class="container-btn">
                 <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" data-toggle="modal" data-target="#documentationModal" href="#documentationModal" role="button">Retrouvez tout la documentation pour vous aider dans la prise en main de l'application</a>
@@ -401,7 +401,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="ambassadeurModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="ambassadeurModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -410,13 +410,58 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body-ambassadeur">
-          <h6 class="text-center pc_text-22 pl-4 pr-4">Devenez ambassadeur du Pass Culture</h6>
-          <p class="pl-1 pr-1">Comment devenir ambassadeur du pass Culture ?</p>
+        <div class="modal-body-ambassadeur has-text-right">
+			<br>
+          <p class="pl-1 pr-1"> Envie de partager votre expérience sur le pass ?</p>
+		  <p class="pl-1 pr-1">  De rencontrer les équipes du pass ? </p>
+		  <p class="pl-1 pr-1">  De contribuer à son amélioration et à sa promotion ?</p>
+		  <p class="pl-1 pr-1">  Ecrivez-nous à <a href="mailto: support.passculture@beta.gouv.fr">support.passculture@beta.gouv.fr</a> !</p>
+		  <br>	 
         </div>
       </div>
     </div>
   </div>
+	
+  <div class="modal fade" id="activetonpassModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Activez votre pass !</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body-documentation">
+          <div class="text-center">
+			 <br>
+            <span class="container-btn mt-2">
+              <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" href="https://https://app.passculture.beta.gouv.fr" role="button">Téléchargez votre application</a>
+            </span>
+			<br>
+		    <h6 class="text-center pc_text-14 pl-4 pr-4">Pour activer votre pass, vous pouvez suivre la procédure en ligne qui vous a été indiquée par mail, ou venir nous rencontrer lors de nos événements d'activation :</h6>
+			
+            <span class="container-btn mt-3">
+              <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" href="https://www.eventbrite.fr/o/le-pass-culture-en-finistere-18655869302" role="button">Finistère</a>
+            </span>
+            <span class="container-btn mt-3">
+              <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" href="https://www.eventbrite.fr/o/le-pass-culture-dans-lherault-18655875344" role="button">Hérault</a>
+            </span>
+            <span class="container-btn mt-3">
+              <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" href="https://www.eventbrite.fr/o/le-pass-culture-dans-le-bas-rhin-18655698112" role="button">Bas-Rhin</a>
+            </span>
+            <span class="container-btn mt-3">
+              <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" href="https://www.eventbrite.fr/o/le-pass-culture-en-seine-saint-denis-18655879372" role="button">Seine-Saint-Denis</a>
+            </span>
+            <span class="container-btn mt-3">
+              <a target="_blank" class="btn btn-secondary pc_shadow-button pl-4 pr-4" href="https://www.eventbrite.fr/o/le-pass-culture-en-guyane-18655882393" role="button">Guyane</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	
   <script>
 
 
