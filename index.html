@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/passculture.min.css" rel="stylesheet">
+  <link href="css/passculture.css" rel="stylesheet">
 
   <!-- MAILJET -->
   <data id="mj-w-res-data" data-token="6393a26103968d7d7f18d58c621b7448" class="mj-w-data" data-apikey="3YhQ" data-w-id="cfF" data-lang="fr_FR" data-base="https://app.mailjet.com" data-width="640" data-height="447" data-statics="statics"></data>
@@ -27,27 +27,6 @@
 </head>
 
 <body id="page-top">
-  <!-- Opening Modal -->
-  <div class="modal fade" id="openingModal" tabindex="-1" role="dialog" aria-labelledby="openingModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="openingModalLabel">Pré-inscription à l'expérimentation</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Vous avez 18 ans ? Vous résidez dans l'un de nos départements d'expérimentation (Bas-Rhin, Finistère, Hérault, Seine-Saint-Denis, Guyane) ?</p>
-          <p class="text-center link-pink"><a href="https://www.demarches-simplifiees.fr/commencer/preinscription-pass-culture" target="_blank">Pré-inscrivez-vous vite au pass Culture !</a></p>
-        </div>
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> -->
-      </div>
-    </div>
-  </div>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -81,11 +60,17 @@
 
   <!-- Header -->
   <header class="masthead bg-gradient">
-    <svg class="wave" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M-5.07,101.14 C225.73,-6.41 264.67,207.72 525.96,69.56 L500.00,150.00 L0.00,150.00 Z"></path></svg>
-    <div class="container d-flex h-100 align-items-center text-white">
-      <div>
-        <h1>Expérimentation du pass Culture.</h1>
-        <h2>Toute la culture à portée de main.</h2>
+    <div class="container text-white">
+      <div class="row d-flex justify-content-between">
+        <div class="header-logo col-lg-3"><img src="img/passculture_logo_blanc.png"></div>
+        <div class="header-content col-lg-8">
+          <h1>Expérimentation du pass Culture.</h1>
+          <h2>Toute la culture à portée de main.</h2>
+          <div class="row d-flex justify-content-center">
+            <div class="mx-3"><a class="nav-link js-scroll-trigger" href="#jeune"><button class="btn btn-white">Vous avez 18 ans ?</button></a></div>
+            <div class="mx-3"><a class="nav-link js-scroll-trigger" href="#pro"><button class="btn btn-white">Acteurs culturels</button></a></div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -95,7 +80,7 @@
   <!-- start Section -->
   <section id="start" class="start-section">
     <div class="container">
-      <div class="row">
+      <div class="row start-content">
         <div class="col-md-5 demo">
           <img src="img/passculture_demo.gif">
         </div>
@@ -233,7 +218,6 @@
 
   <!-- Footer -->
   <footer class="bg-gradient text-left text-white">
-    <svg class="wave" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"></path></svg>
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6">

@@ -1,6 +1,13 @@
 #mainNav {
   min-height: 56px;
   background-color: #fff;
+  visibility: hidden;
+  font-size: 0.9rem;
+}
+
+#mainNav.navbar-shrink {
+    background-color: #fff;
+    visibility: visible;
 }
 
 #mainNav .navbar-toggler {
@@ -17,11 +24,10 @@
 #mainNav .navbar-brand {
   color: darkgrey;
   font-weight: 700;
-  padding: .9rem 0;
 }
 
 #mainNav .navbar-brand img {
-  max-height: 80px;
+  max-height: 70px;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -44,10 +50,14 @@
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
     font-size: 0.9rem;
+    visibility: hidden;
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
     color: darkgrey;
+  }
+  #mainNav .navbar-brand img {
+    max-height: 80px;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
@@ -59,6 +69,7 @@
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
+    visibility: visible;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -84,9 +95,8 @@
 .masthead {
   position: relative;
   width: 100%;
-  height: 70vh;
   margin: 0;
-  padding: 0;
+  padding: 2rem 0 7rem 0;
 }
 
 .masthead h1 {
@@ -101,39 +111,20 @@
   font-size: 2rem;
 }
 
-footer {
-  padding: 0 0 20px 0;
+.header-logo {
+  max-width: 15rem;
 }
 
-.wave {
-  height: 50%;
+.header-logo img {
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
-.wave path {
-  stroke: none;
-  fill: #fff;
+.header-content {
+  margin-top: 5rem;
 }
 
-footer .wave {
-  position: relative;
-  height: 150px;
-}
-
-@media only screen and (max-width: 768px) {
-  .wave {
-    display: none;
-  }
-  .masthead {
-    padding-top: 10rem;
-    margin-bottom: 3rem;
-    height: 27rem;
-  }
-  footer {
-    padding-top: 50px;
-  }
+footer {
+  padding: 3rem 0;
 }
 
 .btn {
@@ -219,6 +210,10 @@ footer .wave {
   color: #EB0055;
 }
 
+.social {
+  text-align: center;
+}
+
 .social a {
   text-align: center;
   height: 3rem;
@@ -226,6 +221,7 @@ footer .wave {
   background: #320096;
   border-radius: 100%;
   line-height: 3rem;
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -255,16 +251,26 @@ section img {
 
 .start-section {
   text-align: right;
-  padding-top: 0;
+  margin: 3rem 0;
+  padding: 0;
 }
-
 .start-section .demo {
   max-height: 80vh;
   text-align: center;
+  margin: 0 0 3rem 0;
 }
 
 .start-section img {
   height: 100%;
+}
+
+@media (min-width: 992px) {
+  .start-content {
+    max-height: 60vh;
+  }
+  .start-section .demo {
+    top: -8rem;
+  }
 }
 
 .newsletter {
@@ -287,7 +293,6 @@ section img {
 }
 
 .start-section .social {
-  margin-top: 30px;
   margin-bottom: 50px;
 }
 
@@ -295,6 +300,7 @@ section img {
   height: 2rem;
   width: 2rem;
   line-height: 2rem;
+  font-size: 1rem;
 }
 
 .pro-section .social {
