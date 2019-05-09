@@ -96,7 +96,7 @@
   position: relative;
   width: 100%;
   margin: 0;
-  padding: 2rem 0 7rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .masthead h1 {
@@ -112,7 +112,7 @@
 }
 
 .header-logo {
-  max-width: 15rem;
+  max-width: 12rem;
 }
 
 .header-logo img {
@@ -120,11 +120,16 @@
 }
 
 .header-content {
-  margin-top: 5rem;
+  margin-top: 7rem;
+}
+
+.header-content {
+  padding-left: 4rem;
 }
 
 footer {
   padding: 3rem 0;
+  font-size: 0.8rem;
 }
 
 .btn {
@@ -132,8 +137,7 @@ footer {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 0.8rem 0.8rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: 80%;
-  letter-spacing: .15rem;
+  font-weight: bold;
   border-radius: 30px;
 }
 
@@ -220,24 +224,28 @@ footer {
   width: 3rem;
   background: #320096;
   border-radius: 100%;
+  border: 2px solid #320096;
   line-height: 3rem;
   font-size: 1.5rem;
   color: white;
 }
 
 .social a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #320096;
+  background-color: white;
+  border: 2px solid #320096;
 }
 
 .social a:active {
-  color: #fff;
+  color: #320096;
+  background-color: white;
+  border: 2px solid #320096;
 }
 
 section {
   padding-top: 4rem;
   padding-bottom: 4rem;
   background-color: white;
-  /*color: grey;*/
 }
 
 section p {
@@ -246,30 +254,36 @@ section p {
 
 section img {
   max-width: 100%;
+  margin-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+  .section-text {
+    padding-top: 2rem;
+  }
+}
 
 .start-section {
-  text-align: right;
   margin: 3rem 0;
   padding: 0;
 }
+
 .start-section .demo {
   max-height: 80vh;
-  text-align: center;
-  margin: 0 0 3rem 0;
+  min-height: 30rem;
 }
 
-.start-section img {
+.start-section .demo img {
   height: 100%;
 }
 
 @media (min-width: 992px) {
   .start-content {
-    max-height: 60vh;
+    max-height: 17rem;
   }
   .start-section .demo {
-    top: -8rem;
+    top: -28rem;
+    min-height: 40rem;
   }
 }
 
@@ -285,26 +299,28 @@ section img {
 }
 
 .jeune-section button {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .pro-section button {
-  margin: 30px 0;
+  margin-bottom: 3rem;
 }
 
 .start-section .social {
   margin-bottom: 50px;
 }
 
-.start-section .social a {
-  height: 2rem;
-  width: 2rem;
-  line-height: 2rem;
-  font-size: 1rem;
+.pro-section .social {
+  margin-top: 1rem;
 }
 
-.pro-section .social {
-  margin-top: 60px;
+@media (min-width: 577px) {
+  .start-section .social a {
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
 }
 
 body {
@@ -345,8 +361,38 @@ section a {
 }
 
 h2 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
+
+@media (max-width: 576px) {
+  .header-content {
+    padding-left: 1rem;
+    margin-top: 3rem;
+  }
+
+  .masthead h1 {
+    font-size: 1.7rem;
+  }
+
+  .masthead h2 {
+    margin: 0;
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    /*margin: 1rem;*/
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .social-row {
+    justify-content: center;
+  }
+}
+
 
 .bg-gradient {
   background: linear-gradient(to right bottom, #EB0055, #320096);
