@@ -216,6 +216,8 @@ footer {
 
 .social {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .social a {
@@ -228,6 +230,12 @@ footer {
   line-height: 3rem;
   font-size: 1.5rem;
   color: white;
+  padding-left: 2px;
+}
+
+.social i {
+  padding: 0;
+  text-align: center;
 }
 
 .social a:hover {
@@ -306,11 +314,15 @@ section img {
   margin-bottom: 3rem;
 }
 
+.pro-section {
+  padding-bottom: 0;
+}
+
 .start-section .social {
   margin-bottom: 50px;
 }
 
-.pro-section .social {
+.relais-section .social {
   margin-top: 1rem;
 }
 
@@ -391,6 +403,10 @@ h2 {
   .social-row {
     justify-content: center;
   }
+
+  footer {
+    font-size: 1rem;
+  }
 }
 
 
@@ -416,4 +432,8 @@ h2 {
 
 .text-primary {
   color: darkgrey !important;
+}
+
+.simpleUrlModal .modal-content {
+  height: 90vh;
 }

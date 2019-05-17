@@ -1,9 +1,15 @@
 (function($) {
   "use strict"; // Start of use strict
 
-  $(document).ready(function(){
-    $("#openingModal").modal('show');
-  });
+  // $(document).ready(function(){
+  //   $("#openingModal").modal('show');
+  // });
+
+  $('a.simpleURLbtn').on('click', function(e) {
+    e.preventDefault();
+    var url = $(this).attr('href');
+    $(".modal-body").html('<iframe width="100%" height="100%" frameborder="0" scrolling="yes" allowtransparency="true" src="'+url+'"></iframe>');
+});
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
