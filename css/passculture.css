@@ -376,6 +376,17 @@ h2 {
   padding-bottom: 1rem;
 }
 
+.modal-subtitle {
+  color: black;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.modal-link {
+  font-size: 0.9rem;
+  margin: 0.5rem;
+}
+
 @media (max-width: 576px) {
   .header-content {
     padding-left: 1rem;
