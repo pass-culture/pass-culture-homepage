@@ -19,7 +19,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/passculture.min.css" rel="stylesheet">
+  <link href="css/passculture-template.css" rel="stylesheet">
+  <link href="css/passculture-index.css" rel="stylesheet">
 
   <!-- MAILJET -->
   <data id="mj-w-res-data" data-token="6393a26103968d7d7f18d58c621b7448" class="mj-w-data" data-apikey="3YhQ" data-w-id="cfF" data-lang="fr_FR" data-base="https://app.mailjet.com" data-width="640" data-height="447" data-statics="statics"></data>
@@ -82,7 +83,7 @@ flDiv.innerHTML = '<iframe id="DCLK_FLIframe1" src="https://5434607.fls.doublecl
             <a class="nav-link js-scroll-trigger" href="#pro" onclick="FLOOD3('passc0', '2019-00');">Acteurs culturels</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#socio">Relais jeunesse</a>
+            <a class="nav-link js-scroll-trigger" href="communication">Communication</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="https://aide.passculture.app/fr/" target="_blank">Aide</a>
@@ -363,6 +364,7 @@ flDiv.innerHTML = '<iframe id="DCLK_FLIframe1" src="https://5434607.fls.doublecl
     </div>
   </section>
 
+
   <!-- Footer -->
   <footer class="bg-gradient text-left text-white">
     <div class="container">
@@ -370,11 +372,10 @@ flDiv.innerHTML = '<iframe id="DCLK_FLIframe1" src="https://5434607.fls.doublecl
         <div class="col-md-3 col-sm-6">
           <p><a href="https://pro.passculture.beta.gouv.fr" target="_blank">Espace professionnel</a></p>
           <p><a href="https://app.passculture.beta.gouv.fr" target="_blank">Application</a></p>
-          <!-- <p><a href="https://medium.com/blog-pass-culture" target="_blank">Blog</a></p> -->
         </div>
         <div class="col-md-3 col-sm-6">
           <p><a href="https://aide.passculture.app/fr" target="_blank">Centre d'aide</a></p>
-          <p><a href="#" target="_blank" data-toggle="modal" data-target="#presseModal">Communication</a></p>
+          <p><a href="https://pass.culture.fr/communication">Communication</a></p>
           <p><a href="mailto:support@passculture.app">Nous contacter</a></p>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -409,33 +410,6 @@ flDiv.innerHTML = '<iframe id="DCLK_FLIframe1" src="https://5434607.fls.doublecl
   </div>
 
 
-  <!-- presse Modal -->
-  <div class="modal fade" id="presseModal" tabindex="-1" role="dialog" aria-labelledby="presseModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="presseModalLabel">Documents de communication</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body link-bg-white">
-          <p class="modal-link"><a href="mailto:presse.pass@culture.gouv.fr">Contact presse</a></p>
-          <p class="modal-subtitle">• Communiqués de presse •</p>
-          <p class="modal-link"><a href="https://pass.culture.fr/assets/docs/communication/190201_MC-DP-Lancement_pass_Culture.pdf" target="_blank">1er février 2019 - Dossier de presse de lancement</a></p>
-          <p class="modal-link"><a href="https://pass.culture.fr/assets/docs/communication/190604_MC-CP-Elargissement_pass_Culture.pdf" target="_blank">4 juin 2019 - Communiqué de presse, 2e vague</a></p>
-          <p class="modal-subtitle">• Kit de communication •</p>
-          <p class="modal-link"><a href="https://pass.culture.fr/assets/docs/communication/190704-pass_Culture-brochure.pdf" target="_blank">Brochure de présentation détaillée</a></p>
-          <p class="modal-link"><a href="https://pass.culture.fr/assets/docs/communication/190724-pass_Culture-4pages.pdf" target="_blank">Brochure de présentation courte</a></p>
-          <p class="modal-link"><a href="https://pass.culture.fr/assets/docs/communication/190704-pass_Culture-affiche_A3.pdf" target="_blank">Affiche A3</a></p>
-          <p class="modal-link"><a href="https://pass.culture.fr/assets/docs/communication/190704-pass_Culture-flyer_A5.pdf" target="_blank">Flyer A5</a></p>
-          <p class="modal-link"><a href="https://pass.culture.fr/assets/docs/communication/charte_graphique_pass_Culture.zip" target="_blank">Charte graphique et logos</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -444,7 +418,8 @@ flDiv.innerHTML = '<iframe id="DCLK_FLIframe1" src="https://5434607.fls.doublecl
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/passculture.min.js"></script>
+  <script src="js/passculture-template.js"></script>
+  <script src="js/passculture-index.js"></script>
   <script src="js/matomo.js"></script>
 
   <!-- MAILJET -->

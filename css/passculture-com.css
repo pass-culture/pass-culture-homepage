@@ -1,0 +1,42 @@
+section {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h2 {
+  padding-top: 3rem;
+}
+
+img {
+  max-width: 170px !important;
+}
+
+.masthead {
+  margin-top: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.start-section {
+  padding-top: 3rem;
+}
+
+
+@media (max-width: 767px) {
+  .social-row {
+    padding-left: 1rem;
+  }
+  .nl-button {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .social-row {
+    justify-content: inherit;
+  }
+}
