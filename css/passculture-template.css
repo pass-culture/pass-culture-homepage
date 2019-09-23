@@ -92,11 +92,10 @@
   }
 }
 
-
-
 footer {
   padding: 3rem 0;
   font-size: 0.8rem;
+  margin-top: 2rem;
 }
 
 .btn {
@@ -330,7 +329,6 @@ h2 {
     font-size: 1rem;
   }
 }
-
 
 .bg-gradient {
   background: linear-gradient(to right bottom, #EB0055, #320096);
