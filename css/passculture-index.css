@@ -99,3 +99,16 @@
     font-size: 1.5rem;
   }
 }
+
+#bilan img {
+  max-width: 70px;
+  margin-bottom: 1rem;
+}
+
+#bilan {
+  vertical-align: top;
+}
+
+#bilan .social-row {
+  margin-top: 1.5rem;
+}
