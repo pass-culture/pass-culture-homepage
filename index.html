@@ -34,6 +34,23 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
+
+<!-- Snap Pixel Code -->
+<script type='text/javascript'>
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(ar
+guments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
+snaptr('init', '2de6998a-feb8-4b7a-aac0-f380a4af8494', {
+'user_email': 'zone51lab@gmail.com'
+});
+snaptr('track', 'PAGE_VIEW');
+</script>
+<!-- End Snap Pixel Code -->
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -261,7 +278,7 @@ flDiv.innerHTML = '<iframe id="DCLK_FLIframe1" src="https://5434607.fls.doublecl
             </ul>
           </p>
           <p>Si vous avez 18 ans et résidez dans l'un des départements ci-dessus, vous pouvez dès aujourd’hui rejoindre l’expérimentation&nbsp;!</p>
-          <a href="https://app.passculture.beta.gouv.fr/beta" target="_blank"><button class="btn btn-white">S'inscrire au pass&nbsp;Culture&nbsp;!</button></a>
+          <a href="https://app.passculture.beta.gouv.fr/beta" target="_blank"><button class="btn btn-white" onClick="snaptr('track', ‘SIGN_UP');">S'inscrire au pass&nbsp;Culture&nbsp;!</button></a>
           <p>Vous avez déjà un compte pass Culture&nbsp;?</p>
           <a href="https://app.passculture.beta.gouv.fr/" target="_blank"><button class="btn btn-white">Accéder à l'application&nbsp;!</button></a>
           <p>Vous avez bientôt 18 ans ou ne résidez pas dans l’un des départements d’expérimentation&nbsp;? Inscrivez-vous sur notre formulaire et nous vous contacterons dès que vous serez éligible&nbsp;!</p>
