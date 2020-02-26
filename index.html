@@ -19,7 +19,23 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-149276598-1');
+  gtag('config', 'AW-706346995');
   </script>
+
+  <script>
+function gtag_report_conversion(url) {
+var callback = function () {
+if (typeof(url) != 'undefined') {
+window.location = url;
+}
+};
+gtag('event', 'conversion', {
+'send_to': 'AW-706346995/z98GCLX0mMYBEPP_59AC',
+'event_callback': callback
+});
+return false;
+}
+</script>
 
 
 <!-- Hotjar Tracking Code for https://pass.culture.fr/ -->
@@ -50,6 +66,25 @@ snaptr('init', '2de6998a-feb8-4b7a-aac0-f380a4af8494', {
 snaptr('track', 'PAGE_VIEW');
 </script>
 <!-- End Snap Pixel Code -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2715078098585151');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2715078098585151&ev=PageVie
+w&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -278,7 +313,7 @@ flDiv.innerHTML = '<iframe id="DCLK_FLIframe1" src="https://5434607.fls.doublecl
             </ul>
           </p>
           <p>Si vous avez 18 ans et résidez dans l'un des départements ci-dessus, vous pouvez dès aujourd’hui rejoindre l’expérimentation&nbsp;!</p>
-          <a href="https://app.passculture.beta.gouv.fr/beta" target="_blank"><button class="btn btn-white" onClick="snaptr('track', ‘SIGN_UP');">S'inscrire au pass&nbsp;Culture&nbsp;!</button></a>
+          <a href="https://app.passculture.beta.gouv.fr/beta" target="_blank"><button class="btn btn-white" onClick="snaptr('track', ‘SIGN_UP'); gtag_report_conversion();">S'inscrire au pass&nbsp;Culture&nbsp;!</button></a>
           <p>Vous avez déjà un compte pass Culture&nbsp;?</p>
           <a href="https://app.passculture.beta.gouv.fr/" target="_blank"><button class="btn btn-white">Accéder à l'application&nbsp;!</button></a>
           <p>Vous avez bientôt 18 ans ou ne résidez pas dans l’un des départements d’expérimentation&nbsp;? Inscrivez-vous sur notre formulaire et nous vous contacterons dès que vous serez éligible&nbsp;!</p>
