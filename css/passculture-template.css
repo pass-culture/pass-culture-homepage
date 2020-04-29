@@ -93,9 +93,9 @@
 }
 
 footer {
-  padding: 3rem 0;
+  padding: 0;
   font-size: 0.8rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 .btn {
@@ -111,7 +111,7 @@ footer {
   background-color: #320096;
   border: 2px solid #320096;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .btn-blue:hover {
